@@ -142,6 +142,7 @@ nav a:hover {
     text-decoration: none; 
 }
 .educations {  
+    flex-direction: row;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 16px; 
@@ -291,8 +292,9 @@ nav a:hover {
   .hero { 
     grid-template-columns: 1fr; 
 }
-  .profile { 
+  .educations { 
     flex-direction: row; 
+    grid-template-columns: 1fr;
     align-items: center; 
     text-align: left; 
 }
@@ -302,6 +304,9 @@ nav a:hover {
 }
   .projects { 
     grid-template-columns: 1fr; 
+}
+.overview { 
+    grid-template-columns: 1fr 1fr; 
 }
   .grid-2 { 
     grid-template-columns: 1fr; 
