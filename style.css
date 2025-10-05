@@ -273,14 +273,19 @@ nav a:hover {
   }
   
 
-footer { 
-    margin-top: 40px; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    color: var(--muted); 
-    font-size: 14px; 
-}
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #9ca3af;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    margin: 4px 0;
+  }
+  
 
 @media (max-width: 980px) {
   .hero { 
